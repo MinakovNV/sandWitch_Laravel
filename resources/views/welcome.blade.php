@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Venik(DolpinDilya smog) v.2
+                    Dolphin4ik plak-plak
                 </div>
 
                 <div class="links">
