@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Venik
+                    Venik(DolpinDilya smog)
                 </div>
 
                 <div class="links">
