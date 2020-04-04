@@ -1,9 +1,9 @@
 @extends('layout.app')
 
-@section('content')
-    <h1>Welcome All!</h1>
+@section('title_lable')
+Venik Social network
 @endsection
 
-@section('contact')
+@section('content')
     <h1>Welcome All!</h1>
 @endsection
