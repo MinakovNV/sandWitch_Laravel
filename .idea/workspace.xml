@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d25c348-a16f-4cb2-bba1-3d58b14a79bc" name="Default Changelist" comment="Dolpin smog commit" />
+    <list default="true" id="1d25c348-a16f-4cb2-bba1-3d58b14a79bc" name="Default Changelist" comment="Dolpin smog commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/vendor/asm89/stack-cors/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir/" />
@@ -140,6 +142,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -151,6 +162,7 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       </list>
     </option>
   </component>
@@ -252,8 +264,9 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="208" />
+    <option name="y" value="13" />
     <option name="width" value="1270" />
     <option name="height" value="732" />
   </component>
@@ -334,7 +347,8 @@
       <workItem from="1585881518040" duration="3937000" />
       <workItem from="1585886908900" duration="2997000" />
       <workItem from="1585890260531" duration="198000" />
-      <workItem from="1585890637025" duration="364000" />
+      <workItem from="1585890637025" duration="838000" />
+      <workItem from="1585990518245" duration="792000" />
     </task>
     <task id="LOCAL-00001" summary="Readme commit">
       <created>1585887012845</created>
@@ -361,13 +375,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="562000" />
+    <option name="totallyTimeSpent" value="1828000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1270" height="732" extended-state="0" />
-    <editor active="true" />
+    <frame x="208" y="13" width="1270" height="732" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25407165" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25814334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -462,6 +475,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
         </state>
       </provider>
     </entry>
