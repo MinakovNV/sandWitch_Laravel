@@ -30,6 +30,21 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Finance</a>
                 </li>
+                <li class="nav-item">
+                    @if (Route::has('login'))
+                        <div class="top-right links">
+                            @auth
+                                <a class="nav-link" href="{{ url('/home') }}">Home</a>
+                            @else
+                                <a class="nav-link" href="{{ route('login') }}">Login</a>
+
+                                @if (Route::has('register'))
+                                    <a class="nav-link" href="{{ route('register') }}">Register</a>
+                                @endif
+                            @endauth
+                        </div>
+                    @endif
+                </li>>
             </ul>
         </div>
     </nav>
