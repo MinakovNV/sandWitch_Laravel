@@ -244,7 +244,7 @@
                             </div>
                         @endif
 
-{{--                            You are logged in! {{Auth::user()->username}}--}}
+                            You are logged in! {{Auth::user()->username}}
                     </div>
                 </div>
             </div>
