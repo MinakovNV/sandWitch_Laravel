@@ -6,6 +6,7 @@ Venik Social network
 
 @section('content')
     <h1>Welcome All!</h1>
+<<<<<<< HEAD
 
     <div class="card-body">
         @if (session('status'))
@@ -15,4 +16,6 @@ Venik Social network
         @endif
     </div>
 
+=======
+>>>>>>> parent of 1e64e47... auth and reg
 @endsection
