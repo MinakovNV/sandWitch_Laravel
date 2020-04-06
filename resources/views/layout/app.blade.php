@@ -32,7 +32,6 @@
                 </li>
 
                 @if (Route::has('login'))
-                    <div class="top-right links">
 
                         @auth
                             <a class="nav-link" href="{{ url('/home') }}">Home</a>
