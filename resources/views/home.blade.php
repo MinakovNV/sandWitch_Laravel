@@ -13,8 +13,6 @@ Venik Social network
                 {{ session('status') }}
             </div>
         @endif
-
-        You are logged in! {{ Auth::user()->username }}
     </div>
-    
+
 @endsection
