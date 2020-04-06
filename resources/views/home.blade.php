@@ -1,9 +1,5 @@
 @extends('layout.app')
 
-@section('title_lable')
-    Venik Social network
-@endsection
-
 @section('content')
 
     <html >
@@ -59,6 +55,17 @@
 
                                 About
                             </a>
+                            @if (Route::has('login'))
+
+                                @auth
+                                    <a class="nav-link" href="{{ url('/home') }}">Home</a>
+                                @else
+                                    <a class="nav-link" href="{{ route('login') }}">Login</a>
+                                    <a class="nav-link" href="{{ route('register') }}">Register</a>
+                                @endauth
+
+                            @endif
+
                         </li></ul>
                     <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-warning display-4" href="#">
 
@@ -237,7 +244,7 @@
                             </div>
                         @endif
 
-                            You are logged in! {{Auth::user()->username}}
+{{--                            You are logged in! {{Auth::user()->username}}--}}
                     </div>
                 </div>
             </div>

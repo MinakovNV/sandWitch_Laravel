@@ -6,50 +6,13 @@
     <title>@yield('title_lable')</title>
 
     <nav class="navbar navbar-expand-sm bg-danger navbar-dark justify-content-end">
-        <a class="navbar-brand" href="/home">Venik Social</a>
-        <button class="btn ml-auto"></button>
-        <button class="navbar-toggler" type="button">
-        </button>
         <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
             <ul class="navbar-nav mr-right">
-                <li class="nav-item">
-                    <a class="nav-link active" href="/about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sport</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Science</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Culture</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Response</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Finance</a>
-                </li>
 
-                @if (Route::has('login'))
-
-                        @auth
-                            <a class="nav-link" href="{{ url('/home') }}">Home</a>
-                        @else
-                            <a class="nav-link" href="{{ route('login') }}">Login</a>
-                            <a class="nav-link" href="{{ route('register') }}">Register</a>
-                        @endauth
-
-                @endif
 
 
             </ul>
         </div>
-    </nav>
-
-
-    </div>
-    </div>
     </nav>
 
 </head>
