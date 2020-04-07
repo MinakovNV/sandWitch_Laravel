@@ -92,7 +92,7 @@
                         Connect and spend time together!</h3>
 
 
-                    <div class="mbr-section-btn pt-3"><a class="btn btn-md btn-bgr btn-warning display-4" href="https://mobirisethemes.com">Sign In</a></div>
+                    <div class="mbr-section-btn pt-3"><a class="btn btn-md btn-bgr btn-warning display-4" href="#">Sign In</a></div>
                 </div>
             </div>
         </div>
@@ -243,7 +243,7 @@
                             </div>
                         @endif
 
-                            You are logged in! {{Auth::user()->username}}
+                            You are logged in!
                     </div>
                 </div>
             </div>
