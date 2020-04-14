@@ -14,25 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 
-Auth::routes();
-Route::get('/about', 'aboutController@index');
+Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/home', function () {
-    return view('home');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});
-
-
-
-
-
-
-
+Route::get('pictures', 'PicturesController@index')->middleware(['auth', 'verified']);
