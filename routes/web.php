@@ -22,3 +22,15 @@ Auth::routes(['verify' => true]);
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('pictures', 'PicturesController@index')->middleware(['auth', 'verified']);
+
+Route::group(['as'=> 'admin.','prefix'=>'admin', 'namespace' => 'Admin', 'middleware' => ['auth', 'admin']],
+    function() {
+        Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+    }
+);
+
+Route::group(['as'=> 'user.', 'prefix'=>'user', 'namespace' => 'User', 'middleware' => ['auth', 'user']],
+    function() {
+        Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+    }
+);
