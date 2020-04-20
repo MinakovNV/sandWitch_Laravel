@@ -57,7 +57,6 @@ class RegisterController extends Controller
             'date_of_birth' => ['required', 'date'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
-            'plans' => ['required', 'string', 'max:255'],
 
         ]);
     }
@@ -77,7 +76,6 @@ class RegisterController extends Controller
             'date_of_birth' => $data['date_of_birth'],
             'telephone_number' => $data['telephone_number'],
             'email' => $data['email'],
-            'plans' => $data['plans'],
             'password' => Hash::make($data['password']),
         ]);
     }

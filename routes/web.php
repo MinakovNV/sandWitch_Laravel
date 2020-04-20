@@ -19,6 +19,9 @@ Route::get('/', function () {
 
 Auth::routes(['verify' => true]);
 
+Route::get('profile', 'UserController@profile');
+Route::post('profile', 'UserController@update_avatar');
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('pictures', 'PicturesController@index')->middleware(['auth', 'verified']);
@@ -34,3 +37,4 @@ Route::group(['as'=> 'user.', 'prefix'=>'user', 'namespace' => 'User', 'middlewa
         Route::get('dashboard', 'DashboardController@index')->name('dashboard');
     }
 );
+
