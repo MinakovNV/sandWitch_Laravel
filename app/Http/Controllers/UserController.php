@@ -30,4 +30,14 @@ class UserController extends Controller
 
         return view('profile', array('user' => Auth::user()));
     }
+
+    public function profileUpdate(Request $request) {
+        $user = Auth::user();
+        $user->first_name = $request['first_name'];
+        $user->last_name = $request['last_name'];
+        $user->date_of_birth = $request['date_of_birth'];
+        $user->telephone_number = $request['telephone_number'];
+        $user->save();
+        return back();
+    }
 }
