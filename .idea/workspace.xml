@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d25c348-a16f-4cb2-bba1-3d58b14a79bc" name="Default Changelist" comment="Indigo commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/head.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +194,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/includes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -197,15 +202,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Angular Template" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\blog\resources\views\includes" />
       <recent name="C:\xampp\htdocs\blog\resources\views\css" />
       <recent name="C:\xampp\htdocs\blog" />
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/resources/js" />
-      <recent name="$PROJECT_DIR$/public/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\blog\resources\views" />
@@ -246,7 +251,7 @@
       <workItem from="1587447618199" duration="1772000" />
       <workItem from="1587451236284" duration="829000" />
       <workItem from="1587452081702" duration="858000" />
-      <workItem from="1587638560928" duration="10606000" />
+      <workItem from="1587638560928" duration="12120000" />
     </task>
     <task id="LOCAL-00001" summary="Readme commit">
       <created>1585887012845</created>
@@ -304,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587651757760</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Indigo commit">
+      <created>1587652958794</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587652958794</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,10 +355,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Indigo commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="480" y="192" key="#Inspections" timestamp="1587651448168">
+    <state x="480" y="192" key="#Inspections" timestamp="1587654294646">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="480" y="192" key="#Inspections/0.0.1707.1027@0.0.1707.1027" timestamp="1587651448168" />
+    <state x="480" y="192" key="#Inspections/0.0.1707.1027@0.0.1707.1027" timestamp="1587654294646" />
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587395032874">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -363,23 +375,24 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585886202905" />
-    <state x="1117" y="440" key="NewPhpFileDialog" timestamp="1587650041051">
+    <state x="1117" y="440" key="NewPhpFileDialog" timestamp="1587653354153">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="1117" y="440" key="NewPhpFileDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1587650041051" />
-    <state x="308" y="68" key="SettingsEditor" timestamp="1587652218909">
+    <state x="1117" y="440" key="NewPhpFileDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1587653354153" />
+    <state x="308" y="68" key="SettingsEditor" timestamp="1587654383373">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="231" y="50" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1587445342793" />
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585886971720" />
-    <state x="308" y="68" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1587652218909" />
+    <state x="308" y="68" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1587654383373" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585886273007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1585886273007" />
-    <state x="296" y="33" width="672" height="676" key="search.everywhere.popup" timestamp="1587445335861">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state x="395" y="45" width="897" height="914" key="search.everywhere.popup" timestamp="1587654381315">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="296" y="33" width="672" height="676" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1587445335861" />
+    <state x="395" y="45" width="897" height="914" key="search.everywhere.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1587654381315" />
   </component>
 </project>

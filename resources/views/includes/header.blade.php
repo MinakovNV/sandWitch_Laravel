@@ -1,6 +1,5 @@
 
-<div class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-    <div id="overlayer"></div>
+<div id="overlayer"></div>
     <div class="loader">
         <div class="spinner-border text-primary" role="status">
             <span class="sr-only">Loading...</span>
@@ -24,10 +23,10 @@
                 <div>
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-xl-block">
-                            <li><a href="index.html" class="nav-link" style="color:black">Home</a></li>
-                            <li><a href="about.html" class="nav-link" style="color:black">About</a></li>
-                            <li><a href="ourteam.html" class="nav-link" style="color:black">Our Team</a></li>
-                            <li><a href="contacts.html" class="nav-link" style="color:black">Contacts</a></li>
+                            <li><a href="" class="nav-link" style="color:black">Home</a></li>
+                            <li><a href="" class="nav-link" style="color:black">About</a></li>
+                            <li><a href="" class="nav-link" style="color:black">Our Team</a></li>
+                            <li><a href="" class="nav-link" style="color:black">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -50,8 +49,7 @@
                 @else
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="position:relative; padding-left:50px;">
-                            <img src="/uploads/avatars/{{ Auth::user()->avatar}}"
-                                 style="width:32px; height:32px; position:absolute;  left:10px; border-radius:50%" alt="Here should be logo">
+                            <img src="/uploads/avatars/{{ Auth::user()->avatar}}" style="width:32px; height:32px; position:absolute;  left:10px; border-radius:50%" alt="Here should be logo">
                             {{ Auth::user()->username }} <span class="caret"></span>
                         </a>
 
@@ -74,4 +72,3 @@
             </div>
         </div>
     </div>
-</div>
