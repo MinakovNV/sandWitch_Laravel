@@ -77,9 +77,9 @@
                 <div class="col-lg-6 ml-auto"  data-aos="fade-up" data-aos-delay="100">
 
                     <div class="owl-carousel slide-one-item-alt">
-                        <img src="images/home_2.JPG" alt="Image" class="img-fluid">
-                        <img src="images/home_3.JPG" alt="Image" class="img-fluid">
-                        <img src="images/home_1.jpg" alt="Image" class="img-fluid">
+                        <img src="../../public/images/home_2.JPG" alt="Image" class="img-fluid">
+                        <img src="../../public/images/home_3.JPG" alt="Image" class="img-fluid">
+                        <img src="../../public/images/home_1.jpg" alt="Image" class="img-fluid">
                     </div>
 
                     <div class="owl-custom-direction">

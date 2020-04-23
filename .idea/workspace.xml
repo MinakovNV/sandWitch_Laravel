@@ -20,14 +20,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d25c348-a16f-4cb2-bba1-3d58b14a79bc" name="Default Changelist" comment="Indigo commit">
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/_forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/_functions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/mediaelementplayer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/utilities/_align.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/components/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-migrate-3.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.animateNumber.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/mediaelement-and-player.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/typed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/js/components/ExampleComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/about_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/about_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/home_1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/home_1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/home_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/home_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/home_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/home_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/logo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/person_a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/person_a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/person_d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/person_d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/person_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/person_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/person_s.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/person_s.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/test_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/test_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/test_2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/test_2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/test_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/test_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/test_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/test_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/used_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/used_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/used_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/used_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/used_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/used_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/used_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/used_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/video_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/video_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/images/witch.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/witch.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +253,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -206,13 +265,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\blog\public\js" />
+      <recent name="C:\xampp\htdocs\blog\public\css" />
+      <recent name="C:\xampp\htdocs\blog\resources\views\js" />
+      <recent name="C:\xampp\htdocs\blog\bootstrap" />
       <recent name="C:\xampp\htdocs\blog\resources\views\includes" />
-      <recent name="C:\xampp\htdocs\blog\resources\views\css" />
-      <recent name="C:\xampp\htdocs\blog" />
-      <recent name="$PROJECT_DIR$/resources" />
-      <recent name="$PROJECT_DIR$/resources/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\blog\public" />
       <recent name="C:\xampp\htdocs\blog\resources\views" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Auth" />
       <recent name="$PROJECT_DIR$" />
@@ -251,7 +311,7 @@
       <workItem from="1587447618199" duration="1772000" />
       <workItem from="1587451236284" duration="829000" />
       <workItem from="1587452081702" duration="858000" />
-      <workItem from="1587638560928" duration="12120000" />
+      <workItem from="1587638560928" duration="14485000" />
     </task>
     <task id="LOCAL-00001" summary="Readme commit">
       <created>1585887012845</created>
@@ -316,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587652958794</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Indigo commit">
+      <created>1587654529807</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587654529807</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -29,9 +29,9 @@
             <div class="col-lg-6 ml-auto"  data-aos="fade-up" data-aos-delay="100">
 
                 <div class="owl-carousel slide-one-item-alt">
-                    <img src="../images/home_2.jpg" alt="Image" class="img-fluid">
-                    <img src="../images/home_3.jpg" alt="Image" class="img-fluid">
-                    <img src="../images/home_1.JPG" alt="Image" class="img-fluid">
+                    <img alt="Image" class="img-fluid" src="{{asset("images/home_2.jpg")}}">
+                    <img alt="Image" class="img-fluid" src="{{asset("images/home_3.jpg")}}">
+                    <img alt="Image" class="img-fluid" src="{{asset("images/home_1.JPG")}}">
                 </div>
 
                 <div class="owl-custom-direction">
