@@ -13,7 +13,7 @@
                     <li><a href="{{ url('/about')}}" class="smoothscroll">About</a></li>
                     <li><a href="{{ url('/ourteam')}}" class="smoothscroll">Our Team</a></li>
                     <li><a href="{{ url('/contacts')}}" class="smoothscroll">Contacts</a></li>
-                    <li><a href="" class="smoothscroll">Registration</a></li>
+                    <li><a href="{{ url('/reg')}}" class="smoothscroll">Registration</a></li>
                 </ul>
             </div>
 

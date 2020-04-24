@@ -33,7 +33,9 @@ Route::get('/login', function () {
     return view('pages/login');
 });
 
-
+Route::get('/reg', function () {
+    return view('pages/reg');
+});
 
 Auth::routes(['verify' => true]);
 
