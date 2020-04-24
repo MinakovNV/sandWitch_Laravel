@@ -21,6 +21,19 @@ Route::get('/about', function () {
     return view('pages/about');
 });
 
+Route::get('/ourteam', function () {
+    return view('pages/ourteam');
+});
+
+Route::get('/contacts', function () {
+    return view('pages/contacts');
+});
+
+Route::get('/login', function () {
+    return view('pages/login');
+});
+
+
 
 Auth::routes(['verify' => true]);
 
