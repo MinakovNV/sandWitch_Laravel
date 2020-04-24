@@ -11,7 +11,7 @@
                     <div class="slide-text">
                         <h1>SandWitch</h1>
                         <p class="mb-5">Best opportunity to project all your plans.</p>
-                        <p><a href="" class="btn btn-outline-dark py-3 px-5">More information</a></p>
+                        <p><a href="about" class="btn btn-outline-dark py-3 px-5">More information</a></p>
                     </div>
                     <div class="slide-text">
                         <h1>Let's Start</h1>

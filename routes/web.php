@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('pages/index');
 });
 
+Route::get('/about', function () {
+    return view('pages/about');
+});
+
+
 Auth::routes(['verify' => true]);
 
 Route::get('profile', 'UserController@profile');
