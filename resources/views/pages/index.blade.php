@@ -21,7 +21,7 @@
                     <div class="slide-text">
                         <h1>Glad to see you!</h1>
                         <p class="mb-5">Welcome to the social network of your preferences. We hope you enjoy it here. Read about our team to find out more..</p>
-                        <p><a href="ourteam" class="btn btn-outline-dark py-3 px-5">Our team</a></p>
+                        <p><a href="" class="btn btn-outline-dark py-3 px-5">Our team</a></p>
                     </div>
                 </div>
 
