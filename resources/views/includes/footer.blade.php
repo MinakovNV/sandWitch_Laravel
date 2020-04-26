@@ -22,10 +22,9 @@
                 <p>Enter your E-mail to receive (nonexistent) newsletter.</p>
                 <form action="#">
                     <div class="d-flex mb-5">
-                        <label>
+<label style="margin-bottom: 0">
                             <input type="text" class="form-control rounded-0" placeholder="Email">
-                        </label>
-                        <input type="submit" class="btn btn-warning rounded-0" value="Subscribe">
+</label> <input type="submit" class="btn btn-warning rounded-0" value="Subscribe">
                     </div>
                 </form>
             </div>

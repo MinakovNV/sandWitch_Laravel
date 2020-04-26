@@ -21,7 +21,6 @@ Route::get('/about', function () {
     return view('pages/about');
 });
 
-
 Route::get('/ourteam', function () {
     return view('pages/ourteam');
 });

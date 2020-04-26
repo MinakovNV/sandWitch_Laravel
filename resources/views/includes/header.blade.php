@@ -23,7 +23,7 @@
                 <div>
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-xl-block">
-                            <li><a href="" class="nav-link" style="color:black">Home</a></li>
+                            <li><a href="{{ url('/') }}" class="nav-link" style="color:black">Home</a></li>
                             <li><a href="{{ url('/about')}}" class="nav-link" style="color:black">About</a></li>
                             <li><a href="{{ url('/ourteam')}}" class="nav-link" style="color:black">Our Team</a></li>
                             <li><a href="{{ url('/contacts')}}" class="nav-link" style="color:black">Contacts</a></li>
