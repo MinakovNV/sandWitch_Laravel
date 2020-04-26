@@ -2,6 +2,7 @@
 
 @section('content')
 
+
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5 mr-auto" data-aos="fade-up">
