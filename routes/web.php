@@ -22,7 +22,7 @@ Route::get('/about', function () {
 });
 
 <<<<<<< HEAD
-============
+=======
 Route::get('/ourteam', function () {
     return view('pages/ourteam');
 });
