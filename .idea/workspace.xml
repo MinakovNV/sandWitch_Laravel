@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d25c348-a16f-4cb2-bba1-3d58b14a79bc" name="Default Changelist" comment="Indigo commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,6 +233,8 @@
       <workItem from="1587394386103" duration="8383000" />
       <workItem from="1587703029923" duration="5989000" />
       <workItem from="1587735602894" duration="825000" />
+      <workItem from="1587891835456" duration="339000" />
+      <workItem from="1587892188082" duration="131000" />
     </task>
     <task id="LOCAL-00001" summary="Readme commit">
       <created>1585887012845</created>
@@ -309,6 +310,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Indigo commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="480" y="192" key="#Inspections" timestamp="1587892257122">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="480" y="192" key="#Inspections/0.0.1707.1027@0.0.1707.1027" timestamp="1587892257122" />
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587395032874">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
