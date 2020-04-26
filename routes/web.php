@@ -21,6 +21,25 @@ Route::get('/about', function () {
     return view('pages/about');
 });
 
+<<<<<<< HEAD
+=======
+Route::get('/ourteam', function () {
+    return view('pages/ourteam');
+});
+
+Route::get('/contacts', function () {
+    return view('pages/contacts');
+});
+
+Route::get('/login', function () {
+    return view('pages/login');
+});
+
+Route::get('/reg', function () {
+    return view('pages/reg');
+});
+
+>>>>>>> cbf47c03bc0a33845342db5f8ec5d825a537a469
 Auth::routes(['verify' => true]);
 
 Route::get('profile', 'UserController@profile');
