@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="site-section" id="contact-section"  data-aos="fade" style="padding:10em 0 5em">
+
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
@@ -15,6 +17,6 @@
                 {{--</form> --}}
             </div>
         </div>
-    </div>
+    </div></div>
 @endsection
 
