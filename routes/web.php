@@ -35,6 +35,16 @@ Route::get('/plan_change', function () {
 
 Route::get('/contacts', 'ContactsFormController@create');
 
+Route::get('/plans/all/{id}', 'Admin\PlanController@showOnePlan')->name('plan-one');
+Route::get('/plans/all', 'Admin\PlanController@allUserPlans')->name('allUserPlans');
+Route::post('/plan/all/{id}/update', 'Admin\PlanController@updatePlan')->name('planUpdateSubmit');
+Route::get('/plan/all/{id}/delete', 'Admin\PlanController@deleteOnePlan')->name('plan-delete');
+Route::post('/plan/submit', 'User\PlanController@submit')->name('plan-form');
+
+Route::get('/addPlan', function () {
+    return view('pages/addPlan');
+})->name('plan');
+
 Auth::routes(['verify' => true]);
 
 Route::get('profile', 'UserController@profile');
@@ -49,13 +59,13 @@ Route::get('pictures', 'PicturesController@index')->middleware(['auth', 'verifie
 
 Route::group(['as'=> 'admin.','prefix'=>'admin', 'namespace' => 'Admin', 'middleware' => ['auth', 'admin']],
     function() {
-        Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+        Route::get('dashboard', 'PlanController@index')->name('dashboard');
     }
 );
 
 Route::group(['as'=> 'user.', 'prefix'=>'user', 'namespace' => 'User', 'middleware' => ['auth', 'user']],
     function() {
-        Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+        Route::get('dashboard', 'PlanController@index')->name('dashboard');
     }
 );
 

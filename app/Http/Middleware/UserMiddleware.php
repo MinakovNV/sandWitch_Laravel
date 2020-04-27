@@ -13,8 +13,11 @@ class UserMiddleware
      * @param  \Closure  $next
      * @return mixed
      */
-    public function handle($request, Closure $next)
-    {
-        return $next($request);
+    public function handle($request, Closure $next) {
+        if(Auth::check() && Auth::user()->role->id == 2) {
+            return $next($request);
+        } else {
+            return redirect()->route('login');
+        }
     }
 }

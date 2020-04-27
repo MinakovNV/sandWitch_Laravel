@@ -13,6 +13,12 @@
                             <li><a href="{{ url('/about')}}" class="nav-link" style="color:black">About</a></li>
                             <li><a href="{{ url('/ourteam')}}" class="nav-link" style="color:black">Our Team</a></li>
                             <li><a href="{{ url('/contacts')}}" class="nav-link" style="color:black">Contacts</a></li>
+                            @if(Auth::check() && Auth::user()->role->id == 1)
+                            <li><a href="{{ route('allUserPlans')}}" class="nav-link" style="color:black">Plans of All users</a></li>
+                            @endif
+                            @if(Auth::check() && Auth::user()->role->id == 2)
+                                <li><a href="{{ route('allUserPlans')}}" class="nav-link" style="color:black">My Plans</a></li>
+                            @endif
                         </ul>
                     </nav>
                 </div>

@@ -32,5 +32,16 @@ class UsersTableSeeder extends Seeder
             'date_of_birth' => '1999-08-01',
             'role_id' => '2'
         ]);
+
+        DB::table('users')->insert([
+            'username' => 'niki',
+            'first_name' => 'Nikita',
+            'last_name' => 'Minakov',
+            'email' => 'n.minakov@gmail.com',
+            'password' => bcrypt('12345'),
+            'telephone_number' => '4444',
+            'date_of_birth' => '1999-07-01',
+            'role_id' => '2'
+        ]);
     }
 }
