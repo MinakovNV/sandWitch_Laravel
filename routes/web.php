@@ -29,6 +29,8 @@ Route::get('/contacts', function () {
     return view('pages/contacts');
 });
 
+Route::get('/contacts', 'ContactsFormController@create');
+
 Route::get('/login', function () {
     return view('pages/login');
 });
@@ -40,7 +42,9 @@ Route::get('/reg', function () {
 Auth::routes(['verify' => true]);
 
 Route::get('profile', 'UserController@profile');
+
 Route::post('profile', 'UserController@update_avatar');
+
 Route::post('/profileUpdate', 'UserController@profileUpdate')->name('profileUpdate');
 
 Route::get('/home', 'HomeController@index')->name('home');
