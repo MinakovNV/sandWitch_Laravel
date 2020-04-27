@@ -16,3 +16,4 @@ yarn-error.log
 .idea/workspace.xml
 .idea/blog.iml
 _ide_helper.php
+*.xml
