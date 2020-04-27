@@ -29,12 +29,8 @@ Route::get('/contacts', function () {
     return view('pages/contacts');
 });
 
-Route::get('/login', function () {
-    return view('pages/login');
-});
-
-Route::get('/reg', function () {
-    return view('pages/reg');
+Route::get('/plan_change', function () {
+    return view('pages/table');
 });
 
 Auth::routes(['verify' => true]);

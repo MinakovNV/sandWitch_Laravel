@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d25c348-a16f-4cb2-bba1-3d58b14a79bc" name="Default Changelist" comment="One more fix">
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/table.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/login.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/reg.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pictures/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pictures/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +210,7 @@
       <workItem from="1587394386103" duration="8383000" />
       <workItem from="1587703029923" duration="5989000" />
       <workItem from="1587959321777" duration="217000" />
-      <workItem from="1588000432181" duration="5645000" />
+      <workItem from="1588000432181" duration="7697000" />
     </task>
     <task id="LOCAL-00001" summary="Readme commit">
       <created>1585887012845</created>
@@ -342,10 +344,10 @@
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="881" y="379" width="426" height="269" key="MultipleFileMergeDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1587893353818" />
-    <state x="690" y="437" key="NewPhpFileDialog" timestamp="1587703213138">
+    <state x="690" y="437" key="NewPhpFileDialog" timestamp="1588007074147">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="690" y="437" key="NewPhpFileDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1587703213138" />
+    <state x="690" y="437" key="NewPhpFileDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1588007074147" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1585886971720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
