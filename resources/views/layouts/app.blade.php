@@ -7,20 +7,20 @@
     </head>
     <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-        <div class="loader">
-        <div class="spinner-border text-primary" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-        <div class="site-wrap">
-        <div class="site-mobile-menu site-navbar-target">
-            <div class="site-mobile-menu-header">
-                <div class="site-mobile-menu-close mt-3">
-                    <span class="icon-close2 js-menu-toggle"></span>
-                </div>
-            </div>
-            <div class="site-mobile-menu-body"></div>
-        </div>
+{{--        <div class="loader">--}}
+{{--            <div class="spinner-border text-primary" role="status">--}}
+{{--                <span class="sr-only">Loading...</span>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="site-wrap">--}}
+{{--        <div class="site-mobile-menu site-navbar-target">--}}
+{{--            <div class="site-mobile-menu-header">--}}
+{{--                <div class="site-mobile-menu-close mt-3">--}}
+{{--                    <span class="icon-close2 js-menu-toggle"></span>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="site-mobile-menu-body"></div>--}}
+{{--        </div>--}}
             <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
                 @include('includes.header')
             </header>

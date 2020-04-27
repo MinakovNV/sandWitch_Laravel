@@ -1,10 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-
     <div class="site-section" id="contact-section"  data-aos="fade" style="padding:10em 0 5em">
         <div class="container">
-
             <div class="row align-items-center">
                 <div class="col-md-5 order-1 order-md-2 mb-5 mb-md-0">
                     <img src="images/test_1.jpg" alt="Image" class="img-fluid">

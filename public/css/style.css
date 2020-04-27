@@ -1,8 +1,8 @@
 /*------------------------------------------------------------
-|  Author: Free-Template.co                                   
-|  Author URL: https://free-template.co/                      
-|  License: https://creativecommons.org/licenses/by/3.0/      
-|  License URL: https://creativecommons.org/licenses/by/3.0/  
+|  Author: Free-Template.co
+|  Author URL: https://free-template.co/
+|  License: https://creativecommons.org/licenses/by/3.0/
+|  License URL: https://creativecommons.org/licenses/by/3.0/
 -------------------------------------------------------------*/
 /* Base */
 body {
@@ -10,6 +10,12 @@ body {
   color: gray;
   font-weight: 300;
   font-size: 1.1rem; }
+
+.centered{
+    text-align: center;
+    width: 100%;
+    max-width: none !important;
+}
 
 ::-moz-selection {
   background: #000;
