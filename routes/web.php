@@ -25,15 +25,14 @@ Route::get('/ourteam', function () {
     return view('pages/ourteam');
 });
 
-Route::get('/contacts', function () {
-    return view('pages/contacts');
-});
 
 Route::get('/plan_change', function () {
     return view('pages/table');
 });
 
-Route::get('/contacts', 'ContactsFormController@create');
+Route::get('contacts', 'ContactFormController@create');
+
+Route::post('contacts', 'ContactFormController@store');
 
 Route::get('/plans/all/{id}', 'Admin\PlanController@showOnePlan')->name('plan-one');
 Route::get('/plans/all', 'Admin\PlanController@allUserPlans')->name('allUserPlans');
