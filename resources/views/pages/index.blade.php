@@ -16,7 +16,7 @@
                     <div class="slide-text">
                         <h1>Let's Start</h1>
                         <p class="mb-5">Just create an account and find many new hobby friends and write down all your plans.</p>
-                        <p><a href="plan_change" class="btn btn-outline-dark py-3 px-5">Registration</a></p>
+                        <p><a href="contact/contacts" class="btn btn-outline-dark py-3 px-5">Registration</a></p>
                     </div>
                     <div class="slide-text">
                         <h1>Glad to see you!</h1>
@@ -24,7 +24,6 @@
                         <p><a href="ourteam" class="btn btn-outline-dark py-3 px-5">Our team</a></p>
                     </div>
                 </div>
-
             </div>
             <div class="col-lg-6 ml-auto"  data-aos="fade-up" data-aos-delay="100">
 
