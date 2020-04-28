@@ -14,7 +14,7 @@ class UserController extends Controller
         return view('profile', array('user' => Auth::user()));
     }
 
-    public function update_avatar(Request $request) {
+    public function update_user(Request $request) {
         ini_set('memory_limit','512M');
 
         //Handle the user upload of avatar
@@ -25,19 +25,17 @@ class UserController extends Controller
 
             $user = Auth::user();
             $user->avatar = $filename;
+            $user->first_name = $request['first_name'];
+            $user->last_name = $request['last_name'];
+            $user->date_of_birth = $request['date_of_birth'];
+            $user->telephone_number = $request['telephone_number'];
+            $user->save();
+            return back();
             $user->save();
         }
 
         return view('profile', array('user' => Auth::user()));
     }
 
-    public function profileUpdate(Request $request) {
-        $user = Auth::user();
-        $user->first_name = $request['first_name'];
-        $user->last_name = $request['last_name'];
-        $user->date_of_birth = $request['date_of_birth'];
-        $user->telephone_number = $request['telephone_number'];
-        $user->save();
-        return back();
-    }
+
 }

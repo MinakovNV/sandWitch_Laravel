@@ -46,11 +46,9 @@ Route::get('/addPlan', function () {
 
 Auth::routes(['verify' => true]);
 
-Route::get('profile', 'UserController@profile');
+Route::get('profile', 'UserController@profile')->middleware(['auth', 'verified']);
 
-Route::post('profile', 'UserController@update_avatar');
-
-Route::post('/profileUpdate', 'UserController@profileUpdate')->name('profileUpdate');
+Route::post('profile', 'UserController@update_user')->middleware(['auth', 'verified']);
 
 Route::get('/home', 'HomeController@index')->name('home');
 
